@@ -2,6 +2,7 @@
 
 A four-page Power BI dashboard that analyses sales, product categories, sellers, payments and delivery performance for a Brazilian online marketplace. Built with Power Query, a relational data model and a dedicated DAX measures table.
 
+Executive Page:
 <img width="1920" height="1020" alt="Executive" src="https://github.com/user-attachments/assets/fc496d6c-46db-4c15-9274-7d8b9b8cb5df" />
 
 
@@ -30,10 +31,16 @@ The dashboard answers the questions a marketplace operations or sales team would
 | **Seller** | Order count by seller and customer state, category performance table (sales, freight, review, installments) |
 | **Delivery** | Average delivery time, delayed and cancelled orders, delivery time by state, and freight by category |
 
-Screenshots: [Executive Page](<img width="1920" height="1020" alt="Executive" src="https://github.com/user-attachments/assets/04c61271-e85a-4f95-8a6d-30b4228b0c07" />
-), [Top & Bottom Category](<img width="1920" height="1020" alt="Top and Bottom Performer" src="https://github.com/user-attachments/assets/5ec1f872-0ec4-4c12-9034-eff8ea703abd" />
-), [Seller](<img width="1920" height="1020" alt="Seller" src="https://github.com/user-attachments/assets/8fcefc95-36cc-40bc-bf03-e58154526b10" />
-), [Delivery](<img width="1920" height="1020" alt="Deliveries" src="https://github.com/user-attachments/assets/21e0c091-72b2-442e-8fe0-30a753dbeb41" />)
+Screenshots: 
+  - Executive Page:
+<img width="1920" height="1020" alt="Executive" src="https://github.com/user-attachments/assets/04c61271-e85a-4f95-8a6d-30b4228b0c07" />
+,
+  - Top & Bottom Category:
+  - <img width="1920" height="1020" alt="Top and Bottom Performer" src="https://github.com/user-attachments/assets/5ec1f872-0ec4-4c12-9034-eff8ea703abd" />
+,
+  - Seller<img width="1920" height="1020" alt="Seller" src="https://github.com/user-attachments/assets/8fcefc95-36cc-40bc-bf03-e58154526b10" />
+,
+  - Delivery<img width="1920" height="1020" alt="Deliveries" src="https://github.com/user-attachments/assets/21e0c091-72b2-442e-8fe0-30a753dbeb41" />
 .
 
 ## Data model
@@ -42,8 +49,8 @@ Relational model with nine source tables plus a separate **DAX Measures** table:
 
 `Order_dataset` (orders) connects to `Order_detail_dataset` (items, price, freight), `Payment_dataset`, `Review_dataset` and `Customer_dataset`. Items link to `Product_dataset`, `Product_Cate_dataset` (English category names) and `Seller_dataset`. `Geo-Location_dataset` links to customers and sellers by zip code prefix.
 
-![Data model](<img width="1920" height="1020" alt="Data Model" src="https://github.com/user-attachments/assets/2f5997e5-70a0-4c3f-ba27-3bb4310646c8" />
-)
+- Data model:
+- <img width="1920" height="1020" alt="Data Model" src="https://github.com/user-attachments/assets/2f5997e5-70a0-4c3f-ba27-3bb4310646c8" />
 
 ## Key DAX measures
 
