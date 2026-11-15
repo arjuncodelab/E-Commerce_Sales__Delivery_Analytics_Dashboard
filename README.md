@@ -2,8 +2,8 @@
 
 A four-page Power BI dashboard that analyses sales, product categories, sellers, payments and delivery performance for a Brazilian online marketplace. Built with Power Query, a relational data model and a dedicated DAX measures table.
 
-![Executive page](<img width="1920" height="1020" alt="Executive" src="https://github.com/user-attachments/assets/fc496d6c-46db-4c15-9274-7d8b9b8cb5df" />
-)
+<img width="1920" height="1020" alt="Executive" src="https://github.com/user-attachments/assets/fc496d6c-46db-4c15-9274-7d8b9b8cb5df" />
+
 
 ## Overview
 
